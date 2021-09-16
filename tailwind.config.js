@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        sam:
+        kanishka:
         {
           50: '#fffce0',
+          60: '#eeeeee',
           100: '#fff7b3',
           200: '#fff283',
           300: '#ffed53',
