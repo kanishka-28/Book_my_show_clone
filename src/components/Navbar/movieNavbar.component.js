@@ -21,7 +21,7 @@ const NavSm = () => {
 
 const NavLg = () => {
     return (
-        <div className="container flex items-center justify-between mx-auto px-4">
+                <div className="container flex items-center justify-between mx-auto px-4 py-2">
             <div className="flex items-center w-1/2">
                 <div className="w-25 h-12 pr-2 ">
                     <img src="https://in.bmscdn.com/webin/common/icons/logo.svg" alt="logo" className="w-full h-full" />
@@ -63,7 +63,7 @@ const MovieNavbar = () => {
 
                     }
                 </div>
-                <div className="hidden lg:flex" >
+                <div className="hidden lg:block" >
                     {
                         /*PC Screen*/
                         <NavLg />

@@ -17,7 +17,6 @@ export default function MovieHOC({component:Component,...rest}) {
             component= {(props)=>(
                 <MovieLayout>
                   <Component {...props} /> {/* //temp */}
-                  
                   {/* {<rest.Component/>} other way of doing the same thing */}
                 </MovieLayout>
             )

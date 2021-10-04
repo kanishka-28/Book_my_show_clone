@@ -8,6 +8,7 @@ module.exports = {
         {
           50: '#fffce0',
           60: '#eeeeee',
+          70: '#261C2C',
           100: '#fff7b3',
           200: '#fff283',
           300: '#ffed53',
@@ -31,8 +32,7 @@ module.exports = {
           800: '#27222b',
           900: '#100a15',
         },
-        allblack:
-
+        blacky:
         {
           50: '#f2f2f2',
           100: '#d9d9d9',
